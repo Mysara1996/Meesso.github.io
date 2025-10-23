@@ -25,13 +25,13 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 
 url: "https://blog.maysara3nani.com"
-baseurl: ""    # empty because the subdomain is the site root 
+baseurl: "" # empty because the subdomain is the site root
 
 github:
-  username: https://github.com/Mysara1996 # change to your GitHub username
+  username: Mysara1996 # change to your GitHub username
 
 twitter:
-  username: https://x.com/Maysra3nani # change to your Twitter username
+  username: Maysra3nani # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -100,7 +100,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/Avatar/profile.png"   # and commit the PNG to that path
+avatar: "/assets/Avatar/profile.png" # and commit the PNG to that path
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -151,10 +151,7 @@ pwa:
 
 paginate: 10
 
-# The base URL of your site
-url: "https://mysara1996.github.io"     # no trailing slash
-baseurl: "/Meesso.github.io"            # leading slash, no trailing slash
-
+# The base URL of your site when deployed › https://jekyllrb.com/docs/configuration/options/#baseurl
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
