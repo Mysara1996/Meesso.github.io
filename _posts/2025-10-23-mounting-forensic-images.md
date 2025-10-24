@@ -38,7 +38,7 @@ In short — **mounting transforms static evidence into a living environment for
 
 One of the most versatile tools for mounting images is **Arsenal Image Mounter (AIM)**. It supports a wide range of image formats — from raw `.dd` dumps to `E01`, `AFF4`, and even virtual machine disks like `VMDK`, `VDI`, and `OVA`.
 
-![AIM main interface]({{ 'assets/img/mounting-forensic-images/aim-ui.png' | relative_url }}){: width="1000" }
+![AIM main interface]({{ '/assets/img/mounting-forensic-images/aim-ui.png' | relative_url }}){: width="1000" }
 
 ### ![AIM supported formats]({{ '/assets/img/mounting-forensic-images/aim-supported-formats.png' | relative_url }}){: width="1000" }
 
