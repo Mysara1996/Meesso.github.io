@@ -7,8 +7,8 @@ last_modified_at: 2025-10-23 20:00:00 +0300
 categories: ["Digital Forensics", "Incident Response"]
 tags: ["DFIR","forensics","mounting","Arsenal Image Mounter","FTK Imager","E01","AFF4"]
 description: "Mounting is the critical bridge between acquisition and analysis. Here’s how to do it safely with Arsenal Image Mounter (AIM) and FTK Imager."
-# Use Liquid here BUT keep it in quotes so YAML doesn't break:
-image: "{{ '/assets/img/mounting-forensic-images/cover.png' | relative_url }}"
+# Theme reads this path directly; keep it as an absolute URL path.
+image: /assets/img/mounting-forensic-images/cover.png
 image_alt: "Concept graphic for mounting forensic images"
 toc: true
 comments: true
@@ -40,7 +40,9 @@ One of the most versatile tools for mounting images is **Arsenal Image Mounter (
 
 ![AIM main interface]({{ '/assets/img/mounting-forensic-images/aim-ui.png' | relative_url }}){: width="1000" }
 
-### ![AIM supported formats]({{ '/assets/img/mounting-forensic-images/aim-supported-formats.png' | relative_url }}){: width="1000" }
+### AIM Supported Formats
+
+AIM ships with native support for E01, AFF4, RAW/DD, VHD(X), VMDK, and other common acquisition formats. Double-check that your evidence type appears in the list before mounting so you can choose the most stable mode.
 
 But what truly makes it shine is its **mounting modes**.
 
