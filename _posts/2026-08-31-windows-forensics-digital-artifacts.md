@@ -2,8 +2,8 @@
 layout: post
 title: "أساسيات Windows Forensics: فهم الـ Digital Artifacts"
 slug: windows-forensics-digital-artifacts
-date: 2026-08-31 04:00:00 +0300
-last_modified_at: 2026-08-31 04:00:00 +0300
+date: 2026-08-31 03:50:00 +0300
+last_modified_at: 2026-08-31 03:50:00 +0300
 categories: ["Digital Forensics", "Learning Notes"]
 tags: ["Windows Forensics", "DFIR", "Digital Artifacts", "Registry", "Event Logs", "Prefetch", "Incident Response"]
 description: "مدخل عملي إلى Windows Forensics، وأنواع Digital Artifacts، والفرق بين Machine-related وUser-related artifacts مع سيناريو تحقيق وPOC آمن."
